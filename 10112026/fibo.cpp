@@ -2,16 +2,21 @@
 using namespace std;
 
 int main(){
-    int a =0;
-    int b = 1;
+    int num;
+    cout<<"Enter the number : ";
+    cin>>num;
+
+
+    int first_previous =0;
+    int second_previous = 1;
     int c;
-    cout<<a<<endl;
-    cout<<b<<endl;
-    for(int i = 0 ; i<10; i++){
-        c = a+b;
+    cout<<first_previous<<endl;
+    cout<<second_previous<<endl;
+    for(int i = 0 ; i<=num; i++){
+        c = first_previous+second_previous;
         cout<<c<<endl;
-        a = b;
-        b = c;
+        first_previous = second_previous;
+        second_previous = c;
         
     }
     return 0;
