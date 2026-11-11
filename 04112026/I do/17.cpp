@@ -8,6 +8,6 @@ int main()
     int bus = students / per_bus;
     int left = students % per_bus;
     cout<< "Full buses = " << bus << endl;
-    cout<<"Students without a seat = "<<left<<endl;
+    cout<<"Students without seat = "<<left<<endl;
     return 0;
 }
