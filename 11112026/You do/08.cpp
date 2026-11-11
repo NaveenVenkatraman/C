@@ -14,7 +14,7 @@ int main()
         code /= 10;
     }
 
-    cout<<"Sum : "<<sum;
+    cout<<"Sum : "<<sum;a
 
     return 0;
 }
