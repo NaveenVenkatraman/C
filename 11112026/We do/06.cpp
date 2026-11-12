@@ -9,7 +9,7 @@ int main(){
     do{
         cout<<num<<endl;
         num+=2;
-    }while(num<9);
+    }while(num<=9);
     
     return 0;
 }
