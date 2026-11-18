@@ -15,14 +15,12 @@ int main(){
                 flag = false;
                 break;
             }
- 
         }
          if(flag){
                 prime_card++;
                 cout<<i<<endl;
                
-            }
-       
+            } 
     }
 
     cout<<"Prime Cards : "<<prime_card;
