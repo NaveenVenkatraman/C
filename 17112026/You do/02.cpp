@@ -11,17 +11,21 @@ Output 2:*/
 
 #include <iostream>
 using namespace std;
-int marks;
 
-void showDemoMarks(){
-    int demoMark = 50;
-    cout<<demoMark<<"/"<<marks;
+void showDemoMarks() {
+    int marks = 50;  // Local variable
+    cout << marks << endl;
 }
 
-int main(){
-    cout<<"Enter the Marks : ";
-    cin>>marks;
+int main() {
+    int marks;
+
+    cout << "Enter student's marks: ";
+    cin >> marks;
+
     showDemoMarks();
+
+    cout << marks << endl;
 
     return 0;
 }

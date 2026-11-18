@@ -18,13 +18,13 @@ Output 2: 50 0
 using namespace std;
 
 int previewBalance(int balance, int cost){
-
+    return balance - cost;
 }
 
 int main(){
     int balance,cost;
     cout<<"Enter the Balance and Cost : ";
     cin>>balance>>cost;
-    
+    cout<<balance<<" "<<previewBalance(balance,cost);
     return 0;
 }
