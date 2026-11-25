@@ -38,7 +38,8 @@ int main(){
     cin >> amount;
 
     for(int i=0; i<amount; i++){
-        user1.borrowOne;
+        user1.borrowOne();
     }
+    cout << "Borrowed Books : " << user1.getBorrowedCount();
     return 0;
 }
